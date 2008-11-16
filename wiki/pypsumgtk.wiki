@@ -3,6 +3,7 @@
 
 === Running ===
 pypsum-gtk.py is the GTK interface to pypsum.gtk. To run it simply double click it in your favorite file browser and choose "Run" if asked what you want to do with the file. You _should_ get something like this:
+
 http://www.filebucket.net/pfiles/1177/Screenshot-Lorem%20ipsum.png
 
 === Troubleshooting ===
