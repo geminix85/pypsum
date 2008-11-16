@@ -1,0 +1,31 @@
+#labels Phase-Implementation
+= About pypsum.py =
+
+=== Running pypsum.py from the command line ===
+You can run pypsum.py from the command line. It takes exactly three arguments:
+{{{
+$ ./pypsum.py
+Usage: pypsum howmany what start_with_lipsum
+	howmany: how many items to get
+	what: the type of the items. Can be: paras/words/bytes/lists
+	start_with_lipsum: whether or not the text should start with "Lorem ipsum" [yes/no]
+}}}
+Here's a usage example:
+{{{
+$ ./pypsum.py 20 words yes
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed nulla erat, porta sit amet, sagittis eget, semper et, nunc. Cras.
+
+Generated 1 paragraph, 20 words, 127 bytes of Lorem Ipsum
+}}}
+
+=== pypsum.py as Python module ===
+pypsum.py is a python module which you can import into your own program and provides one function: get_lipsum. Useful stuff:
+{{{
+>>> import pypsum
+>>> print pypsum.get_lipsum.__doc__
+Get lorem ipsum text from lipsum.com. Parameters:
+howmany: how many items to get
+what: the type of the items [paras/words/bytes/lists]
+start_with_lipsum: whether or not you want the returned text to start with Lorem ipsum [yes/no]
+Returns a tuple with the generated text on the 0 index and generation statistics on index 1
+}}}
