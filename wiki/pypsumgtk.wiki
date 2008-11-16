@@ -11,4 +11,4 @@ Make sure the file is executable before running it. Try running this code:
 {{{
 chmod +x pypsum-gtk.py
 }}}
-If it still doesn't work, try running it as root. If that still doesn't work, you probably have some python module missing. Try running pypsum-gtk.py from the command line, see if you can spot anything and maybe post your issue in the Issues tab.
+If it still doesn't work, try running the chmod command as root. If that still doesn't work, you probably have some python module missing. Try running pypsum-gtk.py from the command line, see if you can spot anything and maybe post your issue in the Issues tab.
