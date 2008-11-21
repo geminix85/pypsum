@@ -6,6 +6,9 @@ pypsum-gtk.py is the GTK interface to pypsum.gtk. To run it simply double click 
 
 http://i498.photobucket.com/albums/rr348/Znupi2/Screenshot-Loremipsum-1.png
 
+== See Also ==
+  * [CreateALauncher Creating a shortcut to Pypsum]
+
 === Troubleshooting ===
 Make sure the file is executable before running it. Try running this code:
 {{{
