@@ -14,7 +14,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.46"
    version="1.0"
-   sodipodi:docname="icon.svg"
+   sodipodi:docname="pypsum.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4">
@@ -34,11 +34,11 @@
      gridtolerance="10000"
      guidetolerance="10"
      objecttolerance="10"
-     inkscape:pageopacity="1"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="34.60974"
-     inkscape:cy="42.782486"
+     inkscape:zoom="13.94"
+     inkscape:cx="25.016026"
+     inkscape:cy="14"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -63,13 +63,15 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-size:25.79141998px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Georgia;-inkscape-font-specification:Georgia Italic"
-       x="-1.2215655"
-       y="25.558441"
-       id="text2383"><tspan
+       style="font-size:21.21228981px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:#c9c9c9;stroke-width:0.49999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Georgia;-inkscape-font-specification:Georgia Bold Italic"
+       x="-0.9948197"
+       y="23.974325"
+       id="text2383"
+       transform="scale(1.0077057,0.9923532)"><tspan
          sodipodi:role="line"
          id="tspan2385"
-         x="-1.2215655"
-         y="25.558441">lor</tspan></text>
+         x="-0.9948197"
+         y="23.974325"
+         style="font-size:21.21228981px;font-weight:bold;stroke:#c9c9c9;stroke-width:0.49999997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-font-specification:Georgia Bold Italic">lor</tspan></text>
   </g>
 </svg>
