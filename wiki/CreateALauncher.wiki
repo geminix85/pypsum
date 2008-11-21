@@ -8,8 +8,8 @@ If you want it on your desktop, right-click on your desktop and choose "Create L
   * Right-click on *Applications* and choose *Edit Menus*
   * Go to *Accesories* and click on *New Item*
 
-Either way, you'll get the same window. Click *Browse...* and select pypsum-gtk.py. It should look like this:
+Either way, you'll get the same window. Click *Browse...* and select *pypsum-gtk.py*. It should look like this:
 
-http://www.filebucket.net/pfiles/1178/Screenshot-Create%20Launcher.png
+http://i498.photobucket.com/albums/rr348/Znupi2/Screenshot-CreateLauncher.png
 
 The *_lor_* icon can be found inside the downloaded package and is named pypsum.svg.
