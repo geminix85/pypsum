@@ -1,6 +1,6 @@
 #labels Phase-Implementation
 = About pypsum.py =
-
+pypsum.py is a command line tool or a python module, whatever you want it to be.
 === Running pypsum.py from the command line ===
 You can run pypsum.py from the command line. It takes exactly three arguments:
 {{{
