@@ -2,6 +2,7 @@
 
 import urllib2
 import xml.sax
+from optparse import OptionParser
 
 def get_lipsum(howmany, what, start_with_lipsum):
 	
@@ -45,13 +46,41 @@ start_with_lipsum: whether or not you want the returned text to start with Lorem
 Returns a tuple with the generated text on the 0 index and generation statistics on index 1"""
 
 if __name__ == "__main__":
-	import sys
-	if len(sys.argv) != 4:
-		print """Usage: pypsum howmany what start_with_lipsum
-	howmany: how many items to get
-	what: the type of the items. Can be: paras/words/bytes/lists
-	start_with_lipsum: whether or not the text should start with "Lorem ipsum" [yes/no]"""
-	else:
-		lipsum = get_lipsum(sys.argv[1], sys.argv[2], sys.argv[3])
-		print lipsum[0] + "\n\n" + lipsum[1]
-
+	from optparse import OptionParser
+	optionParser = OptionParser()
+	optionParser.add_option(
+		"-n","--howmany",
+		type="int",
+		dest="howmany",
+		metavar="X",
+		help="how many items to get"
+	)
+	whatChoices = ('paras','words','bytes','lists')
+	optionParser.add_option(
+		"-w","--what",
+		choices=whatChoices,
+		dest="what",
+		metavar="TYPE",
+		help="the type of items to get: " + ', '.join(whatChoices)
+	)
+	optionParser.add_option(
+		"-l","--start-with-Lorem",
+		action="store_true",
+		dest="lipsum",
+		help='Start the text with "Lorem ipsum"'
+	)
+	optionParser.set_defaults(
+		lipsum=False,
+		howmany=5,
+		what="paras"
+	)
+	(opts,args) = optionParser.parse_args()
+	if 3 == len(args): # for backward compatibility with arg-only version
+		opts.howmany = args[0]
+		opts.what = args[1]
+		opts.lipsum = 'yes' == args[2]
+	lipsum = get_lipsum(
+		opts.howmany, opts.what,
+		'yes' if opts.lipsum else 'no'
+	)
+	print lipsum[0] + "\n\n" + lipsum[1]
