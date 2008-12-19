@@ -1,6 +1,9 @@
 = Authors =
   * *Felix Oghină* - programming [znupi69@at@gmail.dot.com]
 
+= Contributors =
+  * *Tom Holaday* - patch to use OptionParser module in r17
+
 = Thanks =
   * *James Wilson* for providing the service at [http://lipsum.com/ lipsum.com]
   * The guys at [http://python.org/ python.org] for creating a really cool programming language
