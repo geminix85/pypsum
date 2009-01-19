@@ -7,4 +7,4 @@
 = Thanks =
   * *James Wilson* for providing the service at [http://lipsum.com/ lipsum.com]
   * The guys at [http://python.org/ python.org] for creating a really cool programming language
-  * The open source community -- from Linus Torvalds to the guys developing GNOME.
+  * The open source community -- from Linus Torvalds to Nelson Mandela.
